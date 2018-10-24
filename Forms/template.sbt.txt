@@ -1,0 +1,110 @@
+Submit-block ::= {
+  contact {
+    contact {
+      name name {
+        last "Camiolo",
+        first "Salvatore",
+        middle "",
+        initials "",
+        suffix "",
+        title ""
+      },
+      affil std {
+        affil "MRC-University of Glasgow",
+        div "Centre for Virus Research",
+        city "Glasgow",
+        country "United Kingdom",
+        street "464 Bearsden Rd, Bearsden",
+        email "salvatore.camiolo@glasgow.ac.uk",
+        postal-code "G61 1QH"
+      }
+    }
+  },
+  cit {
+    authors {
+      names std {
+        {
+          name name {
+            last "Suarez",
+            first "Nicolas",
+            middle "",
+            initials "",
+            suffix "",
+            title ""
+          }
+        }
+      },
+      affil std {
+        affil "MRC-University of Glasgow",
+        div "Centre for Virus Research",
+        city "Glasgow",
+        country "United Kingdom",
+        street "464 Bearsden Rd, Bearsden",
+        postal-code "G61 1QH"
+      }
+    }
+  },
+  subtype new
+}
+Seqdesc ::= pub {
+  pub {
+    gen {
+      cit "unpublished",
+      authors {
+        names std {
+          {
+            name name {
+              last "Suarez",
+              first "Nicolas",
+              middle "",
+              initials "",
+              suffix "",
+              title ""
+            }
+          },
+          {
+            name name {
+              last "Davison",
+              first "Andrew",
+              middle "",
+              initials "",
+              suffix "",
+              title ""
+            }
+          }
+        }
+      },
+      title "Unpublished data"
+    }
+  }
+}
+Seqdesc ::= user {
+  type str "DBLink",
+  data {
+    {
+      label str "BioProject",
+      num 1,
+      data strs {
+        "PRJNA493765"
+      }
+    }
+  }
+}
+Seqdesc ::= user {
+  type str "Submission",
+  data {
+    {
+      label str "AdditionalComment",
+      data str "ALT EMAIL:salvatore.camiolo@glasgow.ac.uk"
+    }
+  }
+}
+Seqdesc ::= user {
+  type str "Submission",
+  data {
+    {
+      label str "AdditionalComment",
+      data str "Submission Title:None"
+    }
+  }
+}
